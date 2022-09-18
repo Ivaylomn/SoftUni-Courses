@@ -1,0 +1,13 @@
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\02.RadiansToDegrees\bin\Debug\netcoreapp3.1\02.RadiansToDegrees.exe
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\02.RadiansToDegrees\bin\Debug\netcoreapp3.1\02.RadiansToDegrees.deps.json
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\02.RadiansToDegrees\bin\Debug\netcoreapp3.1\02.RadiansToDegrees.runtimeconfig.json
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\02.RadiansToDegrees\bin\Debug\netcoreapp3.1\02.RadiansToDegrees.runtimeconfig.dev.json
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\02.RadiansToDegrees\bin\Debug\netcoreapp3.1\02.RadiansToDegrees.dll
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\02.RadiansToDegrees\bin\Debug\netcoreapp3.1\02.RadiansToDegrees.pdb
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\02.RadiansToDegrees\obj\Debug\netcoreapp3.1\02.RadiansToDegrees.csprojAssemblyReference.cache
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\02.RadiansToDegrees\obj\Debug\netcoreapp3.1\02.RadiansToDegrees.AssemblyInfoInputs.cache
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\02.RadiansToDegrees\obj\Debug\netcoreapp3.1\02.RadiansToDegrees.AssemblyInfo.cs
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\02.RadiansToDegrees\obj\Debug\netcoreapp3.1\02.RadiansToDegrees.csproj.CoreCompileInputs.cache
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\02.RadiansToDegrees\obj\Debug\netcoreapp3.1\02.RadiansToDegrees.dll
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\02.RadiansToDegrees\obj\Debug\netcoreapp3.1\02.RadiansToDegrees.pdb
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\02.RadiansToDegrees\obj\Debug\netcoreapp3.1\02.RadiansToDegrees.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\08. Fish Tank\bin\Debug\netcoreapp3.1\08. Fish Tank.exe
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\08. Fish Tank\bin\Debug\netcoreapp3.1\08. Fish Tank.deps.json
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\08. Fish Tank\bin\Debug\netcoreapp3.1\08. Fish Tank.runtimeconfig.json
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\08. Fish Tank\bin\Debug\netcoreapp3.1\08. Fish Tank.runtimeconfig.dev.json
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\08. Fish Tank\bin\Debug\netcoreapp3.1\08. Fish Tank.dll
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\08. Fish Tank\bin\Debug\netcoreapp3.1\08. Fish Tank.pdb
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\08. Fish Tank\obj\Debug\netcoreapp3.1\08. Fish Tank.AssemblyInfoInputs.cache
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\08. Fish Tank\obj\Debug\netcoreapp3.1\08. Fish Tank.AssemblyInfo.cs
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\08. Fish Tank\obj\Debug\netcoreapp3.1\08. Fish Tank.csproj.CoreCompileInputs.cache
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\08. Fish Tank\obj\Debug\netcoreapp3.1\08. Fish Tank.dll
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\08. Fish Tank\obj\Debug\netcoreapp3.1\08. Fish Tank.pdb
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\08. Fish Tank\obj\Debug\netcoreapp3.1\08. Fish Tank.genruntimeconfig.cache
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\08. Fish Tank\obj\Debug\netcoreapp3.1\08. Fish Tank.csprojAssemblyReference.cache

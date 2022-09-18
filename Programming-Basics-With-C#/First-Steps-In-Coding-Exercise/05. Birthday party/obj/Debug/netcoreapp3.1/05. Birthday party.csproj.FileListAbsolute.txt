@@ -1,0 +1,13 @@
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\05. Birthday party\bin\Debug\netcoreapp3.1\05. Birthday party.exe
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\05. Birthday party\bin\Debug\netcoreapp3.1\05. Birthday party.deps.json
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\05. Birthday party\bin\Debug\netcoreapp3.1\05. Birthday party.runtimeconfig.json
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\05. Birthday party\bin\Debug\netcoreapp3.1\05. Birthday party.runtimeconfig.dev.json
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\05. Birthday party\bin\Debug\netcoreapp3.1\05. Birthday party.dll
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\05. Birthday party\bin\Debug\netcoreapp3.1\05. Birthday party.pdb
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\05. Birthday party\obj\Debug\netcoreapp3.1\05. Birthday party.csprojAssemblyReference.cache
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\05. Birthday party\obj\Debug\netcoreapp3.1\05. Birthday party.AssemblyInfoInputs.cache
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\05. Birthday party\obj\Debug\netcoreapp3.1\05. Birthday party.AssemblyInfo.cs
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\05. Birthday party\obj\Debug\netcoreapp3.1\05. Birthday party.csproj.CoreCompileInputs.cache
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\05. Birthday party\obj\Debug\netcoreapp3.1\05. Birthday party.dll
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\05. Birthday party\obj\Debug\netcoreapp3.1\05. Birthday party.pdb
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\05. Birthday party\obj\Debug\netcoreapp3.1\05. Birthday party.genruntimeconfig.cache

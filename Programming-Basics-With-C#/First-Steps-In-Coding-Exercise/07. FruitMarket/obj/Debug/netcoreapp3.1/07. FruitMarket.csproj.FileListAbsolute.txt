@@ -1,0 +1,13 @@
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\07. FruitMarket\bin\Debug\netcoreapp3.1\07. FruitMarket.exe
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\07. FruitMarket\bin\Debug\netcoreapp3.1\07. FruitMarket.deps.json
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\07. FruitMarket\bin\Debug\netcoreapp3.1\07. FruitMarket.runtimeconfig.json
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\07. FruitMarket\bin\Debug\netcoreapp3.1\07. FruitMarket.runtimeconfig.dev.json
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\07. FruitMarket\bin\Debug\netcoreapp3.1\07. FruitMarket.dll
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\07. FruitMarket\bin\Debug\netcoreapp3.1\07. FruitMarket.pdb
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\07. FruitMarket\obj\Debug\netcoreapp3.1\07. FruitMarket.csprojAssemblyReference.cache
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\07. FruitMarket\obj\Debug\netcoreapp3.1\07. FruitMarket.AssemblyInfoInputs.cache
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\07. FruitMarket\obj\Debug\netcoreapp3.1\07. FruitMarket.AssemblyInfo.cs
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\07. FruitMarket\obj\Debug\netcoreapp3.1\07. FruitMarket.csproj.CoreCompileInputs.cache
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\07. FruitMarket\obj\Debug\netcoreapp3.1\07. FruitMarket.dll
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\07. FruitMarket\obj\Debug\netcoreapp3.1\07. FruitMarket.pdb
+C:\Users\EURO\source\repos\SolutionStepCodingExercise\07. FruitMarket\obj\Debug\netcoreapp3.1\07. FruitMarket.genruntimeconfig.cache
