@@ -17,7 +17,7 @@ namespace HouseRentingSystem.Infrastructure.Data.Entities
 
         [Required]
         [MaxLength(AdressMaxLenght)]
-        public string Adress { get; set; } = null!;
+        public string Address { get; set; } = null!;
 
         [Required]
         [MaxLength(DescriptionMaxLenght)]

@@ -15,7 +15,7 @@ namespace HouseRentingSystem.Infrastructure.Data
 
         public static class Agent
         {
-            public const int PhoneNumberMaxLenght = 12;
+            public const int PhoneNumberMaxLenght = 15;
             public const int PhoneNumberMinLenght = 7;
         }
 
