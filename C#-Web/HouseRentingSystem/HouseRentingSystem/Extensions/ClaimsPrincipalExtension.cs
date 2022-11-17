@@ -4,9 +4,9 @@ namespace HouseRentingSystem.Extensions
 {
     public static class ClaimsPrincipalExtension
     {
-        public static string Id(ClaimsPrincipal user)
+        public static string Id(this ClaimsPrincipal user)
         {
-            return user.FindFirst(ClaimTypes.NameIdentifier).Value;
+            return user.FindFirstValue(ClaimTypes.NameIdentifier);
         }
     }
 }

@@ -2,6 +2,7 @@
 using HouseRentingSystem.Core.Models.Agent;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using HouseRentingSystem.Extensions;
 
 namespace HouseRentingSystem.Controllers
 {
@@ -31,12 +32,28 @@ namespace HouseRentingSystem.Controllers
         {
             var userId = User.Id();
 
-            return View();
-        }
+            if (agent.ExistsById(userId))
+            {
+                return BadRequest();
+            }
 
-        [HttpPost]
-        public IActionResult Become(BecomeAgentFormModel becomeAgentModel)
-        {
+            if (agent.UserWithPhoneNumberExists(model.PhoneNumber))
+            {
+                ModelState.AddModelError(nameof(model.PhoneNumber), "Phone number already exists. Enter another one");
+            }
+
+            if (agent.UserHasRents(userId))
+            {
+                ModelState.AddModelError("Error", "You should have no rents to become an agent");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            agent.Create(userId, model.PhoneNumber);
+
             return RedirectToAction(nameof(HouseController.All), "House");
         }
     }
