@@ -9,9 +9,9 @@
             int thirdNumber = int.Parse(Console.ReadLine());
             int fourthNumber = int.Parse(Console.ReadLine());
 
-            int rezult = (firstNumber + secondNumber) / thirdNumber * fourthNumber;
+            int result = (firstNumber + secondNumber) / thirdNumber * fourthNumber;
 
-            Console.WriteLine(rezult);
+            Console.WriteLine(result);
         }       
     }
 }
