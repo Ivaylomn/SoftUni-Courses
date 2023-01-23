@@ -1,6 +1,4 @@
-﻿using System.Collections.Specialized;
-
-namespace CustomDoublyLinkedList
+﻿namespace CustomDoublyLinkedList
 {
     public class DoublyLinkedList
     {
@@ -89,6 +87,33 @@ namespace CustomDoublyLinkedList
             Count--;
 
             return lastElement;
+        }
+
+        public void ForEach(Action<int> action)
+        {
+            var currentNode = head;
+
+            while (currentNode != null)
+            {
+                action(currentNode.Value);
+                currentNode = currentNode.NextNode;
+            }
+        }
+
+        public int[] ToArray()
+        {
+            var array = new int[Count];
+            var counter = 0;
+            var currentNode = head;
+
+            while (currentNode != null)
+            {
+                array[counter] = currentNode.Value;
+                currentNode = currentNode.NextNode;
+                counter++;
+            }
+
+            return array;
         }
     }
 }
