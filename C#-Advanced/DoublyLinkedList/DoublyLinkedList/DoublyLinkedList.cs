@@ -1,14 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CustomDoublyLinkedList
+﻿namespace CustomDoublyLinkedList
 {
     public class DoublyLinkedList
     {
         private ListNode head;
         private ListNode tail;
+
+        public int Count { get; private set; }
+
+        public void AddFirst(int element)
+        {
+            if (true)
+            {
+
+            }
+        }
     }
 }
