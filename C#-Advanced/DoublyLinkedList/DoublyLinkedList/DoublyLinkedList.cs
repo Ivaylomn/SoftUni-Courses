@@ -66,5 +66,29 @@ namespace CustomDoublyLinkedList
 
             return firstElement;
         }
+
+        public int RemoveLast()
+        {
+            if (Count == 0)
+            {
+                throw new InvalidOperationException("The list is empty");
+            }
+
+            var lastElement = tail.Value;
+            tail = tail.PreviousNode;
+
+            if (tail != null)
+            {
+                tail.NextNode = null;
+            }
+            else
+            {
+                head = null;
+            }
+
+            Count--;
+
+            return lastElement;
+        }
     }
 }
