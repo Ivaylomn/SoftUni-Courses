@@ -1,4 +1,6 @@
-﻿namespace CustomDoublyLinkedList
+﻿using System.Runtime.ExceptionServices;
+
+namespace CustomDoublyLinkedList
 {
     public class DoublyLinkedList
     {
@@ -9,10 +11,19 @@
 
         public void AddFirst(int element)
         {
-            if (true)
+            if (Count == 0)
             {
-
+                head = tail = new ListNode(element);
             }
+            else
+            {
+                var newHead = new ListNode(element);
+                newHead.NextNode = head;
+                head.PreviousNode = newHead;
+                head = newHead;
+            }
+
+            Count++;
         }
     }
 }
