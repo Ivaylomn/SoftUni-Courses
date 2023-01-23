@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace CustomDoublyLinkedList
 {
-    internal class ListNode
+    public class ListNode
     {
+        public ListNode(int value)
+        {
+            Value = value;
+        }
+
+        public int Value { get; set; }
+
+        public ListNode NextNode { get; set; }
+
+        public ListNode PreviousNode{ get; set; }
     }
 }
