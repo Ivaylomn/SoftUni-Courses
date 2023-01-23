@@ -1,4 +1,6 @@
-﻿namespace CustomDoublyLinkedList
+﻿using System.Collections.Specialized;
+
+namespace CustomDoublyLinkedList
 {
     public class DoublyLinkedList
     {
@@ -39,6 +41,30 @@
             }
 
             Count++;
+        }
+
+        public int RemoveFirst()
+        {
+            if (Count == 0)
+            {
+                throw new InvalidOperationException("The list is empty");
+            }
+
+            var firstElement = head.Value;
+            head = head.NextNode;
+
+            if (head != null)
+            {
+                head.PreviousNode = null;
+            }
+            else
+            {
+                tail = null;
+            }
+
+            Count--;
+
+            return firstElement;
         }
     }
 }
