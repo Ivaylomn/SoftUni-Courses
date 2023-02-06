@@ -8,13 +8,13 @@ namespace GenericBoxOfString
         {
             int n = int.Parse(Console.ReadLine());
 
-            Box box = new Box();
+            Box<string> box = new Box<string>();
 
             while (n > 0)
             {
-                string value = Console.ReadLine();
                 
-                box.Add(value);
+                
+                box.Add(Console.ReadLine());
                 n--;
             }
 

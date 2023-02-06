@@ -4,9 +4,9 @@ using System.Text;
 
 namespace GenericBoxOfString
 {
-    public class Box
+    public class Box<T>
     {
-        private List<string> value = new List<string>();
+        private List<T> value = new List<T>();
 
 
         public override string ToString()
@@ -15,13 +15,13 @@ namespace GenericBoxOfString
 
             foreach (var item in this.value)
             {
-                stringBuilder.AppendLine($"{item.GetType()}: {item}");
+                stringBuilder.AppendLine($"{typeof(T)}: {item}");
             }
 
             return stringBuilder.ToString().TrimEnd();
         }
 
-        public void Add(string value)
+        public void Add(T value)
         {
             this.value.Add(value);
         }
