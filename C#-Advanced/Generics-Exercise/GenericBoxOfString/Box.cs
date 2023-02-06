@@ -8,7 +8,6 @@ namespace GenericBoxOfString
     {
         private List<T> value = new List<T>();
 
-
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
