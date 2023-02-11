@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Train", "01.Train\01.Train.csproj", "{32419EAB-1B5E-4FDF-AC56-FE6CE18D6E22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CommonElements", "02.CommonElements\02.CommonElements.csproj", "{A4F2FFD4-8B13-42AD-98AB-64DF0C5F2A89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{32419EAB-1B5E-4FDF-AC56-FE6CE18D6E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32419EAB-1B5E-4FDF-AC56-FE6CE18D6E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32419EAB-1B5E-4FDF-AC56-FE6CE18D6E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F2FFD4-8B13-42AD-98AB-64DF0C5F2A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F2FFD4-8B13-42AD-98AB-64DF0C5F2A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F2FFD4-8B13-42AD-98AB-64DF0C5F2A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F2FFD4-8B13-42AD-98AB-64DF0C5F2A89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
