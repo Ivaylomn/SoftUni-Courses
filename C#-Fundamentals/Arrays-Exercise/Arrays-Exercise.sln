@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.ArrayRotation", "04.Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.TopIntegers", "05.TopIntegers\05.TopIntegers.csproj", "{F13F9BBB-117C-4651-849D-DEE41C56CABE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.EqualSum", "06.EqualSum\06.EqualSum.csproj", "{43A3CEF9-D395-42EA-A815-AE3C597AB8A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F13F9BBB-117C-4651-849D-DEE41C56CABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F13F9BBB-117C-4651-849D-DEE41C56CABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F13F9BBB-117C-4651-849D-DEE41C56CABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A3CEF9-D395-42EA-A815-AE3C597AB8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A3CEF9-D395-42EA-A815-AE3C597AB8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A3CEF9-D395-42EA-A815-AE3C597AB8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A3CEF9-D395-42EA-A815-AE3C597AB8A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
