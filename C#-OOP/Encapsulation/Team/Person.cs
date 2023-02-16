@@ -76,7 +76,6 @@ namespace PersonsInfo
             }
         }
 
-
         public void IncreaseSalary(decimal percentage)
         {
             if (Age < 30)
