@@ -7,7 +7,7 @@ namespace PersonsInfo
         private string firstName;
         private string lastName;
         private int age;
-        private int salary;
+        private decimal salary;
 
         public Person(string firstName, string lastName, int age, decimal salary)
         {
@@ -71,6 +71,8 @@ namespace PersonsInfo
                 {
                     throw new ArgumentException("Salary cannot be less than 650 leva!");
                 }
+
+                salary = value;
             }
         }
 
