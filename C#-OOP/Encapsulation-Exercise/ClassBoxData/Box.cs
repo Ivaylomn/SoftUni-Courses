@@ -32,7 +32,7 @@ namespace ClassBoxData
         public double Height
         {
             get => height;
-            set
+            private set
             {
                 if (value <= 0)
                 {
@@ -46,7 +46,7 @@ namespace ClassBoxData
         public double Width
         {
             get => width;
-            set
+            private set
             {
                 if (value <= 0)
                 {
