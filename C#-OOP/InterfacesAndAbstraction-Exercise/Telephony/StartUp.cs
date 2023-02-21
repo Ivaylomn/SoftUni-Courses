@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace Telephony
 {
-    public class Program
+    public class StartUp
     {
         static void Main(string[] args)
         {
