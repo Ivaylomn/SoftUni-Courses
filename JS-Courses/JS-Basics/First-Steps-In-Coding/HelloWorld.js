@@ -1,5 +1,5 @@
 function solve(){
-    console.log("Hello World!")
+    console.log("Hello World!");
 }
 
-solve()
+solve();
