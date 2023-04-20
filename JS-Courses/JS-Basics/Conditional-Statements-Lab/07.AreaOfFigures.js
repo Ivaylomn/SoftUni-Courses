@@ -16,7 +16,6 @@ function areaOfFigures(input) {
         let height  = Number(input[2]);
         result = ((lenght * height) / 2).toFixed(3);
     }
-
     console.log(result);
 }
 
