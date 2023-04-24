@@ -11,7 +11,7 @@ function numbersDivisibleBy9(input){
         }
     }      
 
-    console.log(`The sum is: ${sum}`);
+    console.log(`The sum: ${sum}`);
     console.log(output);
 }
 
