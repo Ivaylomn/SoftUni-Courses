@@ -1,21 +1,24 @@
 function employes(arr) {
-    //let allEmployes = [];
+    let allEmployes = {};
     for (const el of arr) {
-        let obj = {
-            employeeName: el,
-            personalNum: el.length
-        };
-        //allEmployes.push(obj);
-        console.log(`Name: ${obj['employeeName']} -- Personal Number: ${obj.personalNum}`);
+        allEmployes[el] = el.length;
     }
+    
+    Object.entries(allEmployes).forEach(element => {
+        console.log(`Name: ${element[0]} -- Personal Number: ${element[1]}`);
+    })
 
-    /*for (const el of allEmployes) {
-        for (const [key, value] of Object.entries(el)) {
-            console.log(`Name: ${el[key]} -- Personal Number: ${el.personalNum}`);
-            break;
-        }
-    }
-    */
+    // let employes = [];
+    // arr.forEach(element => {
+    //    let person = {
+    //     name: element,
+    //     number: element.length
+    //    };
+    //    employes.push(person);
+    // });
+    // employes.forEach(element => {
+    //     console.log(`Name: ${element.name} -- Personal Number: ${element.number}`);
+    // })
 }
 
 employes([
