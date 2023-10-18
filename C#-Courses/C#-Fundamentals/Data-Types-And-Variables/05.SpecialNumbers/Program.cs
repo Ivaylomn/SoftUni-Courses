@@ -10,16 +10,17 @@ namespace exercaiseTwo
 
             for (int i = 1; i <= n; i++)
             {
-                int sum = 0;
+                int sumOfDigit = 0;
                 int number = i;
+
                 while (number > 0)
                 {
-                    sum = sum + number % 10;
-                    number = number / 10;
+                    sumOfDigit += number % 10;
+                    number /= 10;
                 }
 
-                bool isTask = (sum == 5) || (sum == 7) || (sum == 11);
-                Console.WriteLine($"{i} -> {isTask}");
+                bool isSpecial = sumOfDigit == 5 || sumOfDigit == 7 || sumOfDigit == 11;
+                Console.WriteLine($"{i} -> {isSpecial}");
             }
         }
     }
