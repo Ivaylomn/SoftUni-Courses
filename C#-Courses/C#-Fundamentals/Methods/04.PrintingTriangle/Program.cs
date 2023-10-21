@@ -4,32 +4,25 @@
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
+            int number = int.Parse(Console.ReadLine());
 
-            PrintTriangle(n);
+            for (int i = 0; i <= number; i++)
+            {
+                PrintLine(i);
+            }
+            for (int i = number - 1; i > 0; i--)
+            {
+                PrintLine(i);
+            }
         }
 
-        private static void PrintTriangle(int n)
+        static void PrintLine(int a)
         {
-            for (int i = 0; i <= n; i++)
+            for (int i = 1; i <= a; i++)
             {
-                for (int j = 1; j <= i; j++)
-                {
-                    Console.Write(j + " ");
-                }
-
-                Console.WriteLine();
+                Console.Write(i + " ");
             }
-
-            for (int i = n; i >= 0; i--)
-            {
-                for (int j = 1; j < i; j++)
-                {
-                    Console.Write(j + " ");
-                }
-
-                Console.WriteLine();
-            }
+            Console.WriteLine();
         }
     }
 }
