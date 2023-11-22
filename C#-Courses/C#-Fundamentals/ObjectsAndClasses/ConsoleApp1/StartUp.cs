@@ -1,6 +1,6 @@
-﻿namespace ConsoleApp1
+﻿namespace Songs
 {
-    internal class Program
+    internal class StartUp
     {
         static void Main(string[] args)
         {
