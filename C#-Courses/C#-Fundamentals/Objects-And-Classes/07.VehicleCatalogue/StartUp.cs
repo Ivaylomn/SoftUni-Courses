@@ -50,36 +50,11 @@ namespace _07.VehicleCatalogue
                 Console.WriteLine($"{car.Brand}: {car.Model} - {car.HorsePower}hp");
             }
 
-            Console.WriteLine( catalog.Trucks.Count > 0 ? "Trucks:"  : "");
+            Console.WriteLine(catalog.Trucks.Count > 0 ? "Trucks:" : "");
             foreach (var truck in catalog.Trucks.OrderBy(t => t.Brand))
             {
                 Console.WriteLine($"{truck.Brand}: {truck.Model} - {truck.Weight}kg");
             }
-        }
-
-        public class Truck
-        {
-            public string Brand { get; set; }
-
-            public string Model { get; set; }
-
-            public int Weight { get; set; }
-        }
-
-        public class Catalog
-        {
-            public List<Car> Cars { get; set; } = new List<Car>();
-
-            public List<Truck> Trucks { get; set; } = new List<Truck>();
-        }
-
-        public class Car
-        {
-            public string Brand { get; set; }
-
-            public string Model { get; set; }
-
-            public int HorsePower { get; set; }
         }
     }
 }
