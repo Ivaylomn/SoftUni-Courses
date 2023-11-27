@@ -1,0 +1,23 @@
+﻿using System.Text.RegularExpressions;
+
+namespace _01.MatchFullName
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string names = Console.ReadLine();
+            string pattern = @"\b[A-Z][a-z]+ [A-Z][a-z]+\b";
+
+            MatchCollection matchedNames = Regex.Matches(names, pattern);
+
+            Console.WriteLine(string.Join(" ", matchedNames));
+
+            //With foreach loop
+            //foreach (Match m in matchedNames) 
+            //{
+            //    Console.Write(m.Value + " ");
+            //}
+        }
+    }
+}
