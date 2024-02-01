@@ -31,3 +31,5 @@ function deckOfCards(arr) {
         }
     }
 }
+deckOfCards(['AS', '10D', 'KH', '2C']);
+deckOfCards(['5S', '3D', 'QD', '1C']);
