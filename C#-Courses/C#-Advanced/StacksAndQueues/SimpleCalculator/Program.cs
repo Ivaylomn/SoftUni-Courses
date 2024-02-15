@@ -22,13 +22,13 @@ namespace SimpleCalculator
 
                 if (@operator == "+")
                 {
-                    int rezult = numberA + numberB;
-                    stack.Push(rezult.ToString());
+                    int result = numberA + numberB;
+                    stack.Push(result.ToString());
                 }
                 else if (@operator == "-")
                 {
-                    int rezult = numberA - numberB;
-                    stack.Push(rezult.ToString());
+                    int result = numberA - numberB;
+                    stack.Push(result.ToString());
                 }
             }
 
