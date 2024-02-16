@@ -32,7 +32,7 @@
 
             if (isContains)
             {
-                Console.WriteLine(stack.Count());
+                Console.WriteLine(stack.Count);
             }
         }
     }
